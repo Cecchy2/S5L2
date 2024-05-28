@@ -392,6 +392,7 @@ button {
   button {
     padding: 15px 30px;
   }
+
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -462,6 +463,10 @@ section h2{
   height: 28%;
 width: 18%;
 }
+section h2{
+  padding-left: 21px;
+}
+
 
 }
 
@@ -477,6 +482,9 @@ footer a {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  article{
+    width: 100%;
   }
 .clearfix h1{
   margin-right: 0
@@ -495,11 +503,15 @@ margin-inline: 0;
 margin-left: 5%;
 }
 iframe{
-  width: 40%;
+  width: 50%;
 }
 section{
-  width: 38%;
+  width: 50%;
   height: 265px;
+  
+}
+section h2{
+  padding-left: 21px;
 }
 
   #calendar{
