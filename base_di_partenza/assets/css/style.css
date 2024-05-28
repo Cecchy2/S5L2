@@ -478,7 +478,7 @@ footer a {
     margin-left: auto;
     margin-right: auto;
   }
-}.clearfix h1{
+.clearfix h1{
   margin-right: 0
 }
 .sottolineato{
@@ -488,6 +488,17 @@ footer a {
   margin-top: -47px;
   margin-bottom: 30px;
   margin-left: 459px;
+}
+table{
+width: 55%;
+margin-inline: 0;
+margin-left: 5%;
+}
+iframe{
+  width: 38%;
+}
+section{
+  width: 38%;
 }
   #calendar{
     margin-bottom: 569px;
@@ -501,8 +512,7 @@ footer a {
       height: 28%;
     width: 18%;
     }
-  
-}
+  }
 
 @media print {
   body {
