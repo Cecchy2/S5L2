@@ -495,11 +495,13 @@ margin-inline: 0;
 margin-left: 5%;
 }
 iframe{
-  width: 38%;
+  width: 40%;
 }
 section{
   width: 38%;
+  height: 265px;
 }
+
   #calendar{
     margin-bottom: 569px;
     z-index: 1002;
@@ -509,8 +511,8 @@ section{
     z-index: 1002;
     }
     section h2{
-      height: 28%;
-    width: 18%;
+      height: 21%;
+    width: 28%;
     }
   }
 
