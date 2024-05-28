@@ -478,6 +478,17 @@ footer a {
     margin-left: auto;
     margin-right: auto;
   }
+}.clearfix h1{
+  margin-right: 0
+}
+.sottolineato{
+  display: block;
+  width: 515px;
+  opacity: 60%;
+  margin-top: -47px;
+  margin-bottom: 30px;
+  margin-left: 459px;
+}
   #calendar{
     margin-bottom: 569px;
     z-index: 1002;
