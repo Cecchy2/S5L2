@@ -7,6 +7,31 @@ body {
   background-image: url("../img/sfondo.png");
   background-position: center center;
 }
+/* #backTop{
+  
+} */
+.btn{
+  display: block;
+  border: solid 2px white;
+  background-color: rgba(255, 255, 255, 0.399);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: rgb(246, 97, 94);
+  position: fixed;
+  right: 0;
+  bottom: 0; 
+  padding: 5px;
+ 
+}
+#calendar{
+  margin-bottom: 105px;
+}
+#plus{
+  margin-bottom: 190px;
+}
+
+
 
 * {
   box-sizing: border-box;
@@ -111,7 +136,23 @@ main article img{
     opacity: 60%;
     margin-top: -50px;
     margin-bottom: 30px;
-}
+  }
+  main article p:first-of-type{
+  color: rgb(154, 157, 162);
+  }
+  article img:nth-of-type(2){
+  float: left;
+  }
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  section h2{
+    position: absolute;
+    top: 0;
+    transform: translate(10px, -15px);
+  }
 }
 
 section {
