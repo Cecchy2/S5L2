@@ -7,9 +7,7 @@ body {
   background-image: url("../img/sfondo.png");
   background-position: center center;
 }
-/* #backTop{
-  
-} */
+
 .btn{
   display: block;
   border: solid 2px white;
@@ -153,6 +151,7 @@ main article img{
     top: 0;
     transform: translate(10px, -15px);
   }
+  
 }
 
 section {
@@ -230,6 +229,7 @@ h1 + p {
     font-size: 3.6rem;
 
   }
+  
 }
 
 @media screen and (min-width: 1200px) {
@@ -291,9 +291,43 @@ table {
 }
 @media screen and (min-width: 500px) {
   table {
-    margin: 0 auto 2em;
+    margin: 0 0 2em;
   }
+  section{
+    height: 196px;
+  }
+  section h2{
+    position: absolute;
+    top: 0;
+    transform: translate(10px, -28px);
+    height: 30%;
+    width: 40%;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    padding-right: 10px;
+    }
+    section p{
+      padding-top: 20px;
+      color: black;
+    }
+    main article p:first-of-type{
+      color: rgb(154, 157, 162);
+      }
+      article img:nth-of-type(2){
+      float: left;
+      }
+      .sottolineato{
+        display: block;
+        width: 426px;
+        opacity: 60%;
+        margin-top: -42px;
+        margin-bottom: 30px;
+    }
 }
+      
+
+  }
+
 @media screen and (min-width: 700px) {
   table {
     width: 70%;
